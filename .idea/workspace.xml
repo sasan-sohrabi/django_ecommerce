@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Media file configurations.">
-      <change beforePath="$PROJECT_DIR$/ecommerce/category/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/category/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/category/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/category/models.py" afterDir="false" />
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Pre-populate category slug">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <updated>1645378586806</updated>
       <workItem from="1645378588857" duration="9743000" />
       <workItem from="1645547444056" duration="3777000" />
-      <workItem from="1645779436546" duration="8308000" />
+      <workItem from="1645779436546" duration="9348000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645804984599</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Pre-populate category slug">
+      <created>1645805554508</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645805554508</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +150,8 @@
     <MESSAGE value="Create category models and create superuser." />
     <MESSAGE value="Use email as username for login to page." />
     <MESSAGE value="Media file configurations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Media file configurations." />
+    <MESSAGE value="Pre-populate category slug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pre-populate category slug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
