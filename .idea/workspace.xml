@@ -65,7 +65,7 @@
       <workItem from="1645378588857" duration="9743000" />
       <workItem from="1645547444056" duration="3777000" />
       <workItem from="1645779436546" duration="9365000" />
-      <workItem from="1645892606273" duration="7617000" />
+      <workItem from="1645892606273" duration="7643000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645907520436</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Display product in store">
+      <created>1645909455423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645909455423</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
