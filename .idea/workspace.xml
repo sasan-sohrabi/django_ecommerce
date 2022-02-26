@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Pre-populate category slug" />
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Create store app">
+      <change afterPath="$PROJECT_DIR$/ecommerce/media/photos/products/ATX-Jeans.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/media/photos/products/Blue-Shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/media/photos/products/Great-Tshirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/media/photos/products/Puma-Ferrari-Shoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/media/photos/products/US-Polo-Assn_Jacket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/media/photos/products/Wrangler-Shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/media/photos/products/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/store/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/templates/store/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +57,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/static/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecommerce/templates" />
       <recent name="$PROJECT_DIR$/ecommerce/static/admin" />
       <recent name="$PROJECT_DIR$/ecommerce/ecommerce/static" />
     </key>
@@ -64,7 +82,7 @@
       <workItem from="1645378588857" duration="9743000" />
       <workItem from="1645547444056" duration="3777000" />
       <workItem from="1645779436546" duration="9365000" />
-      <workItem from="1645892606273" duration="3357000" />
+      <workItem from="1645892606273" duration="7550000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -136,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645897491496</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create store app">
+      <created>1645897551718</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645897551718</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +187,8 @@
     <MESSAGE value="Use email as username for login to page." />
     <MESSAGE value="Media file configurations." />
     <MESSAGE value="Pre-populate category slug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pre-populate category slug" />
+    <MESSAGE value="Create store app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create store app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
