@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Display products by categories">
-      <change afterPath="$PROJECT_DIR$/ecommerce/category/context_processors.py" afterDir="false" />
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Make context processors.">
+      <change afterPath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/category/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/category/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,7 +72,7 @@
       <workItem from="1645779436546" duration="9365000" />
       <workItem from="1645892606273" duration="7643000" />
       <workItem from="1645909517806" duration="205000" />
-      <workItem from="1646492482975" duration="5710000" />
+      <workItem from="1646492482975" duration="7214000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646495083310</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Make context processors.">
+      <created>1646499925219</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1646499925219</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +215,8 @@
     <MESSAGE value="Create store app" />
     <MESSAGE value="Display product in store" />
     <MESSAGE value="Display products by categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display products by categories" />
+    <MESSAGE value="Make context processors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Make context processors." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
