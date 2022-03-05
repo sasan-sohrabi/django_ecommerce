@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Make context processors.">
-      <change afterPath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" afterDir="false" />
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Create single product.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/static/images/banners/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/static/images/banners/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/includes/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/store.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +49,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/static/images/banners" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecommerce/static/images/banners" />
       <recent name="$PROJECT_DIR$/ecommerce/templates" />
       <recent name="$PROJECT_DIR$/ecommerce/static/admin" />
       <recent name="$PROJECT_DIR$/ecommerce/ecommerce/static" />
@@ -72,7 +77,7 @@
       <workItem from="1645779436546" duration="9365000" />
       <workItem from="1645892606273" duration="7643000" />
       <workItem from="1645909517806" duration="205000" />
-      <workItem from="1646492482975" duration="7214000" />
+      <workItem from="1646492482975" duration="9857000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -186,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646499925219</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create single product.">
+      <created>1646501694701</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1646501694701</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +228,8 @@
     <MESSAGE value="Display product in store" />
     <MESSAGE value="Display products by categories" />
     <MESSAGE value="Make context processors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Make context processors." />
+    <MESSAGE value="Create single product." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create single product." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
