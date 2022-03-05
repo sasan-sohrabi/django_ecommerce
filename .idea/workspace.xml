@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Display product in store" />
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Display product in store">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +70,8 @@
       <workItem from="1645547444056" duration="3777000" />
       <workItem from="1645779436546" duration="9365000" />
       <workItem from="1645892606273" duration="7643000" />
+      <workItem from="1645909517806" duration="205000" />
+      <workItem from="1646492482975" duration="2057000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -158,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645909455423</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Display product in store">
+      <created>1645909525498</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645909525498</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
