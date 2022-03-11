@@ -4,7 +4,11 @@
     <!-- ========================= SECTION PAGETOP ========================= -->
     <section class="section-pagetop bg">
         <div class="container">
-            <h2 class="title-page">Our Store</h2>
+            {% if 'search' in request.path %}
+                <h2 class="title-page">Search Result</h2>
+            {% else %}
+                <h2 class="title-page">Our Store</h2>
+            {% endif %}
 
         </div> <!-- container //  -->
     </section>
@@ -154,6 +158,7 @@
 
 
                     <nav class="mt-4" aria-label="Page navigation sample">
+                    {% if products %}
                         {% if products.has_other_pages %}
                             <ul class="pagination">
                                 {% if products.has_previous %}
@@ -175,12 +180,16 @@
                                 {% endfor %}
 
                                 {% if products.has_next %}
-                                    <li class="page-item"><a class="page-link" href="?page={{ products.next_page_number }}">Next</a></li>
+                                    <li class="page-item"><a class="page-link"
+                                                             href="?page={{ products.next_page_number }}">Next</a></li>
                                 {% else %}
                                     <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
                                 {% endif %}
                             </ul>
                         {% endif %}
+                    {% else %}
+                    <h2 class="text-center" >No Result Found</h2>
+                    {% endif %}
                     </nav>
 
                 </main> <!-- col.// -->
