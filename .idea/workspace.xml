@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Paginator">
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Search functionality.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/carts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/carts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,8 @@
       <workItem from="1646763987724" duration="3005000" />
       <workItem from="1646842266474" duration="4192000" />
       <workItem from="1646895315354" duration="8479000" />
-      <workItem from="1647020121202" duration="2253000" />
+      <workItem from="1647020121202" duration="2453000" />
+      <workItem from="1647183075661" duration="5815000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646906878633</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Search functionality.">
+      <created>1647028393184</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1647028393184</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +299,8 @@
     <MESSAGE value="Some detail for cart and product detail page." />
     <MESSAGE value="Counter for cart icon in navbar." />
     <MESSAGE value="Paginator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paginator" />
+    <MESSAGE value="Search functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Search functionality." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
