@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Search functionality.">
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Product variation and variation manager.">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33c426c7-fe34-4172-8c51-fd4ceb16c149.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/carts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/accounts/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/carts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/category/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/category/migrations/0002_auto_20220225_1606.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/product_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25NrrsOGsWUdxie4IB7IvL18DKv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,15 +56,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/static/images/banners" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/store" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecommerce/store" />
+      <recent name="$PROJECT_DIR$/ecommerce/category" />
+      <recent name="$PROJECT_DIR$/ecommerce/carts" />
       <recent name="$PROJECT_DIR$/ecommerce/static/images/banners" />
       <recent name="$PROJECT_DIR$/ecommerce/templates" />
-      <recent name="$PROJECT_DIR$/ecommerce/static/admin" />
-      <recent name="$PROJECT_DIR$/ecommerce/ecommerce/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ecommerce" />
@@ -86,7 +93,8 @@
       <workItem from="1646842266474" duration="4192000" />
       <workItem from="1646895315354" duration="8479000" />
       <workItem from="1647020121202" duration="2453000" />
-      <workItem from="1647183075661" duration="5815000" />
+      <workItem from="1647183075661" duration="5886000" />
+      <workItem from="1647259962477" duration="14014000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -263,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647028393184</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Product variation and variation manager.">
+      <created>1647190530559</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1647190530559</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +315,8 @@
     <MESSAGE value="Counter for cart icon in navbar." />
     <MESSAGE value="Paginator" />
     <MESSAGE value="Search functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Search functionality." />
+    <MESSAGE value="Product variation and variation manager." />
+    <option name="LAST_COMMIT_MESSAGE" value="Product variation and variation manager." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
