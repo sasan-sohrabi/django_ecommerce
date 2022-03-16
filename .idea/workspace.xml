@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Cart variations but there is some problem." />
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Cart variations but there is some problem.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/carts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/cart.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +88,9 @@
       <workItem from="1647020121202" duration="2453000" />
       <workItem from="1647183075661" duration="5886000" />
       <workItem from="1647259962477" duration="14219000" />
+      <workItem from="1647275516781" duration="22000" />
+      <workItem from="1647408393029" duration="32000" />
+      <workItem from="1647408466244" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -272,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647275468869</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Cart variations but there is some problem.">
+      <created>1647275525749</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1647275525749</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
