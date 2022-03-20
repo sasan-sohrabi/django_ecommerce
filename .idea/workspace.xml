@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Cart variations but there is some problem.">
+    <list default="true" id="e25a750b-4616-463e-9ca1-244c18dba523" name="Default Changelist" comment="Complete variation for project.">
+      <change beforePath="$PROJECT_DIR$/.idea/django_ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_ecommerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/carts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/carts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/store/cart.html" afterDir="false" />
     </list>
@@ -34,6 +33,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="25NrrsOGsWUdxie4IB7IvL18DKv" />
   <component name="ProjectLevelVcsManager">
@@ -90,7 +98,10 @@
       <workItem from="1647259962477" duration="14219000" />
       <workItem from="1647275516781" duration="22000" />
       <workItem from="1647408393029" duration="32000" />
-      <workItem from="1647408466244" duration="2457000" />
+      <workItem from="1647408466244" duration="14085000" />
+      <workItem from="1647709542104" duration="12229000" />
+      <workItem from="1647758854993" duration="1955000" />
+      <workItem from="1647760828085" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="1.Create virtual env&#10;2.Install django&#10;3.Create django project&#10;4. Run server">
       <created>1645380035152</created>
@@ -288,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647275525749</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Complete variation for project.">
+      <created>1647411206082</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1647411206082</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +345,8 @@
     <MESSAGE value="Search functionality." />
     <MESSAGE value="Product variation and variation manager." />
     <MESSAGE value="Cart variations but there is some problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cart variations but there is some problem." />
+    <MESSAGE value="Complete variation for project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete variation for project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
